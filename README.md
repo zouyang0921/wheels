@@ -7,7 +7,7 @@
 - [x] call
 - [x] apply
 - [x] bind
-- [ ] new
+- [x] new
 - [ ] instanceof
 - [ ] 深拷贝
 - [ ] debounce
