@@ -1,9 +1,10 @@
 /** 
- * 函数防抖
+ * 函数防抖，返回的函数连续调用时，空闲时间必须大于或等于 wait，func 才会执行
  * 
- * @param {funciton} func 需要防抖的函数
- * @param {number} wait 等待时间
- * @param {boolean} immediate 是否立即调用
+ * @param  {funciton} func 需要防抖的函数
+ * @param  {number}   wait 等待时间
+ * @param  {boolean}  immediate 是否立即调用函数
+ * @return {function} 返回用户调用的函数
  */
 
 function debounce(func, wait, immediate) {
